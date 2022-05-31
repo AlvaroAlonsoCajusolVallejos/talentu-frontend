@@ -225,7 +225,6 @@ export default {
               return rs;
             });
             const lastUser = this.users[this.users.length - 1];
-            console.log({ lastUser });
             this.user.id = lastUser.id + 1;
             this.users.push(this.user);
           }
